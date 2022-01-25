@@ -76,6 +76,6 @@ class BattleShipApiTest {
 
 	@Test
 	void shouldStartGameWith1Row1Col1Player() {
-		assertArrayEquals(new int[][] { { 0 } }, game.startGame(1, 1, 1));
+		assertArrayEquals(new String[][] { { " " } }, game.startGame(1, 1, 1));
 	}
 }
